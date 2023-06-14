@@ -1,0 +1,35 @@
+# replace this with your bot token
+token: "mytoken"
+# replace the credentials with your own
+database:
+  host: localhost
+  port: 3306
+  name: mydatabase
+  username: myusername
+  password: mypassword
+# The values below are just an example, you can change them to your role ids
+cmd-perms:
+  warn:
+    - '1099815513988796467'
+    - '1099815513988796468'
+    - '1099815513988796469'
+  kick:
+    - '1099815513988796467'
+    - '1099815513988796468'
+    - '1099815513988796469'
+  timeout:
+    - '1099815513988796467'
+    - '1099815513988796468'
+    - '1099815513988796469'
+  ban:
+    - '1099815513988796467'
+    - '1099815513988796468'
+    - '1099815513988796469'
+  userinfo:
+    - '1099815513988796467'
+    - '1099815513988796468'
+    - '1099815513988796469'
+  clear:
+    - '1099815513988796467'
+    - '1099815513988796468'
+    - '1099815513988796469'
